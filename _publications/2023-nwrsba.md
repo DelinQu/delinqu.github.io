@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/2023-nwrsba
 date: 2023-03-17
 venue: "CVPR"
-authors: "Bangyan Liao$^{\ast}$, Delin Qu$^{\ast}$, Yifei Xue3, Huiqing Zhang1, Yizhen Lao$^{\dagger}$"
+authors: 
 uri: 
 project: https://delinqu.github.io/NW-RSBA/ 
 bibtex: files/2023_nwrsba.txt
