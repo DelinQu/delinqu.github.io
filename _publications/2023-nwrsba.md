@@ -8,9 +8,9 @@ authors: "**Bangyan Liao$^{\ast}$, Delin Qu$^{\ast}$**, Yifei Xue3, Huiqing Zhan
 uri: 
 project: https://delinqu.github.io/NW-RSBA/ 
 bibtex: 
-arxiv: 
-openpdf: https://bmvc2022.mpi-inf.mpg.de/0821.pdf
-supp: https://bmvc2022.mpi-inf.mpg.de/0821_supp.zip
+arxiv: https://arxiv.org/pdf/2209.08503.pdf
+openpdf: 
+supp: 
 teaser: images/2023_nwrsba.png
 videoresults: 
 videotalk: 
