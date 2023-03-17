@@ -1,0 +1,6 @@
+@InProceedings{Meyer_2018_CVPR,
+author = {Meyer, Simone and Djelouah, Abdelaziz and McWilliams, Brian and Sorkine-Hornung, Alexander and Gross, Markus and Schroers, Christopher},
+title = {PhaseNet for Video Frame Interpolation},
+booktitle = {Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+year = {2018}
+}
