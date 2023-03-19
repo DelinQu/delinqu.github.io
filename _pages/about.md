@@ -22,4 +22,4 @@ Previously I obtained my Bachelor’s degree in College of Computer Science and 
 
 
 ## Teaching
-COMP130135.04: Object Oriented Programming —— Assistant, Spring 2023.
+COMP130135.04: Object Oriented Programming —— Teaching Assistant, Spring 2023.
