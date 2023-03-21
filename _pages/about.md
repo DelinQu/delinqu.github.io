@@ -22,4 +22,5 @@ Previously I obtained my Bachelor’s degree in College of Computer Science and 
 
 
 ## Teaching
-- **2023 spring**, COMP130135.04 Object Oriented Programming, Teaching Assistant.
+<style style="text/css"> .news{font-size:0.75em;} </style>
+{% include teaching.html %}
