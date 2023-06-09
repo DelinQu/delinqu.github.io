@@ -8,8 +8,8 @@ authors: " <b>Bangyan Liao$^*$</b>, <b>Delin Qu$^{*}$</b>, Yifei Xue, Huiqing Zh
 url: 
 project: https://delinqu.github.io/NW-RSBA/ 
 bibtex: files/2023_nwrsba.txt
-arxiv: https://arxiv.org/pdf/2209.08503.pdf
-openpdf: https://arxiv.org/pdf/2209.08503.pdf
+arxiv: https://openaccess.thecvf.com/content/CVPR2023/papers/Liao_Revisiting_Rolling_Shutter_Bundle_Adjustment_Toward_Accurate_and_Fast_Solution_CVPR_2023_paper.pdf
+openpdf: https://openaccess.thecvf.com/content/CVPR2023/papers/Liao_Revisiting_Rolling_Shutter_Bundle_Adjustment_Toward_Accurate_and_Fast_Solution_CVPR_2023_paper.pdf
 supp: 
 teaser: images/2023_nwrsba.png
 videoresults: 
