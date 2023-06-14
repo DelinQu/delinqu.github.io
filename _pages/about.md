@@ -26,4 +26,4 @@ Previously I obtained my Bachelor’s degree in College of Computer Science and 
 {% include teaching.html %}
 
 ## Map
-_includes/map.html
+{% _includes/news.html %}
