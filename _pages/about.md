@@ -25,7 +25,7 @@ Previously I obtained my Bachelor's degree in College of Computer Science and El
 <style style="text/css"> .news{font-size:0.75em;} </style>
 {% include teaching.html %}
 
-<br>
+
 ## Map
 <html>
   <body align="left">
