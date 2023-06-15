@@ -25,8 +25,10 @@ Previously I obtained my Bachelor’s degree in College of Computer Science and 
 <style style="text/css"> .news{font-size:0.75em;} </style>
 {% include teaching.html %}
 
-
+<br>
 ## Map
 <html>
-<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=2d78ad&w=300&t=tt&d=AzKZGryLz3amj3g5IaqEy4_eXki3g-RXrlssFZtJFpk&co=ffffff&cmo=3acc3a&cmn=ff5353&ct=808080'></script>
+  <body align="left">
+  <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=2d78ad&w=400&t=tt&d=AzKZGryLz3amj3g5IaqEy4_eXki3g-RXrlssFZtJFpk&co=ffffff&cmo=3acc3a&cmn=ff5353&ct=808080'></script>
+  </body>
 </html>
