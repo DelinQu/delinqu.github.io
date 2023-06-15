@@ -27,7 +27,5 @@ Previously I obtained my Bachelor’s degree in College of Computer Science and 
 
 ## Map
 <html>
-  <body>
 <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=AzKZGryLz3amj3g5IaqEy4_eXki3g-RXrlssFZtJFpk"></script>
-  </body>
 </html>
