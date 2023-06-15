@@ -7,9 +7,9 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am currently a Ph.D. student since 2022, advised by [Prof.Xuelong Li](https://scholar.google.com/citations?user=ahUibskAAAAJ&hl=zh-CN), at the School of Computer Science, [Fudan University](https://www.fudan.edu.cn/en/) (FDU), Shanghai, China. I'm also a trainee researcher of [Shanghai AI Lab](http://www.shlab.org.cn/). My research interests are in the area of 3D Vision include Geometric Learning, NeRF & SLAM, Rolling Shutter, Event Camera, and 3D-Vision-based UAV Tasks.
+I am currently a Ph.D. student since 2022, advised by [Prof.Xuelong Li](https://scholar.google.com/citations?user=ahUibskAAAAJ&hl=zh-CN), at the School of Computer Science, [Fudan University](https://www.fudan.edu.cn/en/) (FDU), Shanghai, China. I'm also a trainee researcher of [Shanghai AI Lab](http://www.shlab.org.cn/). My research interests are in the area of 3D Vision including Geometric Learning, NeRF & SLAM, Rolling Shutter, Event Camera, and 3D-Vision-based UAV Tasks.
 
-Previously I obtained my Bachelor’s degree in College of Computer Science and Electronic Engineering from [Hunan University](http://www-en.hnu.edu.cn/), 3.86/4.0, Changsha, China.
+Previously I obtained my Bachelor's degree in College of Computer Science and Electronic Engineering from [Hunan University](http://www-en.hnu.edu.cn/), 3.86/4.0, Changsha, China.
 
 
 ## News
