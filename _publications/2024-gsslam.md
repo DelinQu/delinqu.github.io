@@ -1,5 +1,5 @@
 ---
-title: "Implicit Event-RGBD Neural SLAM"
+title: "GS-SLAM: Dense Visual SLAM with 3D Gaussian Splatting"
 collection: publications
 permalink: /publication/2024-gsslam
 date: 2023-11-21
