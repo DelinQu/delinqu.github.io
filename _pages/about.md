@@ -27,7 +27,7 @@ Previously, I obtained my Bachelor's degree in the College of Computer Science a
 
 ## Services
 <style style="text/css"> .news{font-size:0.75em;} </style>
-{% include service.html %}.
+{% include service.html %}
 
 ## Map
 <html>
