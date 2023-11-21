@@ -1,0 +1,6 @@
+@article{yan2023gsslam,
+  title   = {GS-SLAM: Dense Visual SLAM with 3D Gaussian Splatting},
+  author  = {Chi Yan and Delin Qu and Dong Wang and Dan Xu and Zhigang Wang and Bin Zhao and Xuelong Li},
+  year    = {2023},
+  journal = {arXiv preprint arXiv: 2311.11700}
+}
