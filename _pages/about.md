@@ -25,9 +25,13 @@ Previously, I obtained my Bachelor's degree in the College of Computer Science a
 <style style="text/css"> .news{font-size:0.75em;} </style>
 {% include teaching.html %}
 
-## Services
+## Academic Service
 <style style="text/css"> .news{font-size:0.75em;} </style>
 {% include service.html %}
+
+## Honors
+<style style="text/css"> .news{font-size:0.75em;} </style>
+{% include honors.html %}
 
 ## Map
 <html>
