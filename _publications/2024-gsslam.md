@@ -2,8 +2,8 @@
 title: "GS-SLAM: Dense Visual SLAM with 3D Gaussian Splatting"
 collection: publications
 permalink: /publication/2024-gsslam
-date: 2023-11-21
-venue: "Arxiv"
+date: 2024-2-27
+venue: "CVPR"
 authors: "<b>Chi Yan$^{*}$</b>, <b>Delin Qu$^*$</b>, Dong Wang, Dan Xu, Bin Zhao, Xuelong Li"
 url: 
 project: https://delinqu.github.io/
