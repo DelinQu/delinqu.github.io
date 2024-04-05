@@ -1,5 +1,5 @@
 ---
-title: "Implicit Event-RGBD Neural SLAM"
+title: "Implicit Event-RGBD Neural SLAM (<b>CVPR Highlight</b>)"
 collection: publications
 permalink: /publication/2024-enslam
 date: 2024-2-27
