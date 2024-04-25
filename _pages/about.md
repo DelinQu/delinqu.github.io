@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am currently a Ph.D. student since 2022, advised by [Prof.Xuelong Li](https://scholar.google.com/citations?user=ahUibskAAAAJ&hl=zh-CN), at the School of Computer Science, [Fudan University](https://www.fudan.edu.cn/en/) (FDU), Shanghai, China. I'm also a Research Intern of [Shanghai AI Lab](http://www.shlab.org.cn/). My research interests are in the area of 3D Computer Vision and Embodied AI, specifically in Physic World Understanding & Simulation, Multimodal Generative Models and NeRF & 3D Gaussian. Open to collaboration! 😊
+I am currently a Ph.D. student since 2022, advised by [Prof.Xuelong Li](https://scholar.google.com/citations?user=ahUibskAAAAJ&hl=zh-CN), at the School of Computer Science, [Fudan University](https://www.fudan.edu.cn/en/) (FDU), Shanghai, China. I'm also a Research Intern of [Shanghai AI Lab](http://www.shlab.org.cn/) and [Tele-AI](https://github.com/Tele-AI). My research interests are in the area of 3D Computer Vision and Embodied AI, specifically in Physic World Understanding & Simulation, Multimodal Generative Models and NeRF & 3D Gaussian. Open to collaboration! 😊
 
 Previously, I obtained my Bachelor's degree in the College of Computer Science and Electronic Engineering from [Hunan University](http://www-en.hnu.edu.cn/), 3.86/4.0, Changsha, China.
 
