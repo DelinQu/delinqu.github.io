@@ -6,7 +6,7 @@ date: 2023-1-9
 venue: "Shanghai AI Laboratory"
 authors: ""
 url: 
-project: https://delinqu.github.io
+project: https://mp.weixin.qq.com/s/TuPiB_l1u9p37LkuXrDLRQ
 bibtex: 
 arxiv: 
 openpdf: 
