@@ -1,5 +1,5 @@
 ---
-title: "GS-SLAM: Dense Visual SLAM with 3D Gaussian Splatting (<b>CVPR Highlight</b>)"
+title: "GS-SLAM: Dense Visual SLAM with 3D Gaussian Splatting (<b style='color:red;'>CVPR Highlight</b>)"
 collection: publications
 permalink: /publication/2024-gsslam
 date: 2024-2-27

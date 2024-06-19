@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/2024-livescene
 date: 2024-6-19
 venue: "ArXiv"
-authors: "<b>Delin Qu$^*$</b>, <b>Qizhi Chen$^{*}$</b>, Pingrui Zhang, Xianqiang Gao, Bin Zhao, Dong Wang$^†$, Xuelong Li</b>"
+authors: "<b>Delin Qu$^*$</b>, <b>Qizhi Chen$^{*}$</b>, Pingrui Zhang, Xianqiang Gao, Bin Zhao, Dong Wang$^†$, Xuelong Li"
 url: 
 project: https://livescenes.github.io
 bibtex: files/2024_livescene.txt
