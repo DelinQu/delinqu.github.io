@@ -1,0 +1,9 @@
+@misc{chen2024freegaussianguidancefreecontrollable3d,
+      title={FreeGaussian: Guidance-free Controllable 3D Gaussian Splats with Flow Derivatives}, 
+      author={Qizhi Chen and Delin Qu and Yiwen Tang and Haoming Song and Yiting Zhang and Dong Wang and Bin Zhao and Xuelong Li},
+      year={2024},
+      eprint={2410.22070},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2410.22070}, 
+}
