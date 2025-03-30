@@ -1,6 +1,0 @@
-@inproceedings{Gao2024Learning2I,
-  title={Learning 2D Invariant Affordance Knowledge for 3D Affordance Grounding},
-  author={Xianqiang Gao and Pingrui Zhang and Delin Qu and Dong Wang and Zhigang Wang and Yan Ding and Bin Zhao and Xuelong Li},
-  year={2024},
-  url={https://api.semanticscholar.org/CorpusID:271946766}
-}

@@ -1,6 +1,0 @@
-@inproceedings{qu2023implicit,
-    title={Implicit Event-RGBD Neural SLAM},
-    author={Delin Qu, Chi Yan, Dong Wang, Jie Yin, Qizhi Chen, Yiting Zhang, Dan Xu and Bin Zhao and Xuelong Li},
-    booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
-    year={2024}
-}

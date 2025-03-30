@@ -1,6 +1,0 @@
-@Manual{livescene2024,
-   title = {LiveScene: Language Embedding Interactive Radiance Fields for Physical Scene Rendering and Control},
-   author = {Anonymous},
-   year = {2024},
-   url = {https://livescenes.github.io},
-}
