@@ -117,7 +117,7 @@
                   href="https://www.fudan.edu.cn/en/">Fudan University</a> (FDU) and <a
                   href="http://www.shlab.org.cn/">Shanghai AI Laboratory</a>, Shanghai, China. I'm foutunate to be
                 advised by <a href="https://scholar.google.com/citations?user=ahUibskAAAAJ">Prof. Xuelong
-                  Li</a> and be part of the <a href="https://huggingface.co/IPEC-COMMUNITY">IPEC@Team</a>. My research
+                  Li</a> and be part of the <a href="http://eo-robotics.ai/">EO-Robotics Teamn</a>. My research
                 focuses on Embodied AI and 3D Computer Vision, with a long-term vision of achieving L2-level Physical
                 Intelligence. I'm excited about the prospect of an "GPT moment" in Embodied AI, where AI systems can
                 learn to interact with the physical world in a more human-like way.
@@ -131,7 +131,7 @@
                 startup opportunities.</span>
               <p align=center>
                 <a href="mailto:dlqu22@m.fudan.edu.cn">Email</a> &nbsp|&nbsp
-                <a href="files/qudelin-en.pdf">CV</a> &nbsp|&nbsp
+                <!-- <a href="files/qudelin-en.pdf">CV</a> &nbsp|&nbsp -->
                 <a href="https://github.com/DelinQu">GitHub</a> &nbsp|&nbsp
                 <a href="https://scholar.google.com/citations?user=zgiFoOwAAAAJ">Google Scholar</a> &nbsp|&nbsp
                 <a href="https://www.linkedin.com/in/%E5%BE%B7%E6%9E%97-%E5%B1%88-8b9975280"> LinkedIn</a> &nbsp|&nbsp
@@ -182,6 +182,13 @@
             <td>
               <heading>News</heading>
               <ul>
+                <li><strong>Sep 2025</strong>
+                  We introduce <img src="media/eo_logo_bare.png" width="15"> <a
+                  href="http://eo-robotics.ai"><strong>EO-1</strong></a>
+                  , an open-source unified embodied foundation model trained on Interleaved Embodied Multimodal Data, integrates discrete auto-regressive decoding with continuous flow matching for multimodal embodied reasoning and robot control.
+                  <strong>EO-Robotic Team: <a href="http://eo-robotics.ai">http://eo-robotics.ai</a></strong>.
+                </li>
+
                 <li><strong>Apr 2025</strong><img src="media/logo_oral.jpg" width="20"><a
                     href="https://spatialvla.github.io/">Our papers <strong>SpatialVLA</strong></a> are accepted to
                   <strong>Robotics: Science and Systems 2025</strong>. I’ll be presenting a short <strong><span style="color:#c20000;">Spotlight Talk</span></strong> in RSS, LA. Meanwhile, I’m actively exploring <strong>internships or visiting opportunities</strong>. Open to exciting collaborations—DM or email me!
@@ -251,6 +258,128 @@
         <!-- Research  -->
         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
           <heading>Research</heading>
+          <tr onmouseout="eo1_stop()" onmouseover="eo1_start()">
+            <td width="25%">
+              <div class="one">
+                <div class="two" id='eo1_shape'>
+                  <video width="160" height="120" muted autoplay loop>
+                    <source src="publication/202509-eo1/video.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+                <img src='publication/202509-eo1/teaser.png' width="160" height="120">
+              </div>
+              <script type="text/javascript">
+                function eo1_start() {
+                  document.getElementById('eo1_shape').style.opacity = "1";
+                }
+                function eo1_stop() {
+                  document.getElementById('eo1_shape').style.opacity = "0";
+                }
+                eo1_stop()
+              </script>
+              </script>
+            </td>
+            <td valign="top" width="75%">
+              <a href="http://eo-robotics.ai/eo-1">
+                <papertitle>EmbodiedOneVision: Interleaved Vision-Text-Action Pretraining for General Robot Control,</papertitle>
+              </a>
+              <strong>Delin Qu*</strong>,
+              <a href="https://github.com/HaomingSong">Haoming Song*</a>,
+              <a href="https://github.com/Tavish9">Qizhi Chen*</a>,
+              <a href="">Zhaoqin Chen*</a>,
+              <a href="https://scholar.google.com/citations?user=oZSREOkAAAAJ">Xianqiang Gao*</a>,
+              <a href="https://scholar.google.com/citations?user=oqN1dA8AAAAJ">Guanghui Ren</a>,
+              <a href="https://scholar.google.com/citations?user=N36nqu4AAAAJ">Maoqing Yao</a>,
+              <a href="https://scholar.google.com/citations?hl=zh-CN&user=DQB0hqwAAAAJ">Bin Zhao</a>,
+              <a href="https://scholar.google.es/citations?user=dasL9V4AAAAJ">Dong Wang</a>,
+              et al. <strong><a href="http://eo-robotics.ai">EO-Robotic Team</a></strong>
+              <br>
+              <a href="http://eo-robotics.ai">
+                <img
+                  src="https://img.shields.io/badge/EO--Robotics-Website-5865F2?logo=googleplay&logoColor=white"
+                  alt="EO-Robotics Website"
+                />
+              </a>
+              <a href="https://arxiv.org/abs/2508.21112">
+                <img
+                  src="https://img.shields.io/badge/EO--1-Paper-red?logo=arxiv&logoColor=red"
+                  alt="EO-Robotics Paper on arXiv"
+                />
+              </a>
+              <a href="https://huggingface.co/IPEC-COMMUNITY/EO-1-3B">
+                <img 
+                    src="https://img.shields.io/badge/EO--1--3B-Model-FFCC11?logo=huggingface&logoColor=brightyellow" 
+                    alt="EO-1 Model"
+                />
+              </a>
+              <a href="https://huggingface.co/datasets/IPEC-COMMUNITY/EO-Data1.5M">
+                <img
+                  src="https://img.shields.io/badge/Dataset-EO--Data1.5M-brightgreen?logo=huggingface&logoColor=brightyellow"
+                  alt="EO-1.5M"
+                />
+              </a>
+              <br>
+              An open-source unified embodied foundation model integrates discrete auto-regressive decoding with continuous flow matching for embodied reasoning and robot control.
+            </td>
+          </tr>
+
+          <tr onmouseout="hume_stop()" onmouseover="hume_start()">
+            <td width="25%">
+              <div class="one">
+                <div class="two" id='hume_shape'>
+                  <video width="160" height="120" muted autoplay loop>
+                    <source src="publication/202506-hume/video.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+                <img src='publication/202506-hume/teaser.png' width="160" height="120">
+              </div>
+              <script type="text/javascript">
+                function hume_start() {
+                  document.getElementById('hume_shape').style.opacity = "1";
+                }
+                function hume_stop() {
+                  document.getElementById('hume_shape').style.opacity = "0";
+                }
+                hume_stop()
+              </script>
+              </script>
+            </td>
+            <td valign="top" width="75%">
+              <a href="https://hume-vla.github.io">
+                <papertitle>
+                  Hume: Introducing System-2 Thinking in Visual-Language-Action Model
+                </papertitle>
+              </a>
+              <br>
+              <a href="https://github.com/HaomingSong">Haoming Song*</a>,
+              <strong>Delin Qu*</strong>,
+              <a href="https://ceciliayao.github.io/">Yuanqi Yao</a>,
+              <a href="https://github.com/Tavish9">Qizhi Chen</a>,
+              <a href="https://scholar.google.com/citations?user=GlYeyfoAAAAJ">Xinyi Ye</a>,
+              <a href="https://github.com/aopolin-lv">Qi Lv</a>,
+              <a href="https://scholar.google.com/citations?user=oZSREOkAAAAJ">Xianqiang Gao*</a>,
+              <a href="https://scholar.google.com/citations?user=oqN1dA8AAAAJ">Guanghui Ren</a>,
+              <a href="https://scholar.google.com/citations?user=N36nqu4AAAAJ">Maoqing Yao</a>,
+              <a href="https://scholar.google.com/citations?hl=zh-CN&user=DQB0hqwAAAAJ">Bin Zhao</a>,
+              <a href="https://scholar.google.es/citations?user=dasL9V4AAAAJ">Dong Wang</a>,
+              <a href="https://scholar.google.com/citations?user=ahUibskAAAAJ&hl=en">Xuelong Li</a>,
+              <br>
+              <a href="https://arxiv.org/abs/2505.21432">paper</a> |
+              <a href="https://hume-vla.github.io">project page</a> |
+              <a href="https://hume-vla.github.io">video</a> |
+              <a href="https://github.com/hume-vla/hume">code</a> |
+              <a
+                href="https://huggingface.co/collections/Hume-vla/hume-model-zoo-684be6e5d062717593589a9a">model
+                <img alt="Static Badge" src="https://img.shields.io/badge/🤗 Huggingface-Hume-orange">
+              </a>
+              <br>
+              A spatial-enhanced vision-language-action model trained on 1.1 Million real robot episodes, purely
+              huggingFace-based, concise code with efficient performance.
+            </td>
+          </tr>
+
           <tr onmouseout="spatial_stop()" onmouseover="spatial_start()">
             <td width="25%">
               <div class="one">
@@ -306,6 +435,7 @@
             </td>
           </tr>
 
+          
           <tr onmouseout="gsslam_stop()" onmouseover="gsslam_start()">
             <td width="25%">
               <div class="one">
@@ -887,6 +1017,35 @@
               <p></p>
               A novel LLM-based task planning framework for collaboration of heterogeneous multi-robot systems including
               quadrotors, robotic dogs, and robotic arms.
+              <p></p>
+            </td>
+          </tr>
+
+          <tr>
+            <td width="25%">
+              <div class="one">
+                <div class="two" id='any4lerobot'>
+                  <!-- <video width="160" height="120" muted autoplay loop>
+                    <source src="project/any4lerobot/video.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                  </video> -->
+                  <img src="project/any4lerobot/teaser.png" width="160" height="120">
+                </div>
+              </div>
+            </td>
+            <td valign="top" width="75%">
+              <a href="https://github.com/Tavish9/any4lerobot">
+                <papertitle>
+                  Any4LeRobot: A tool collection for LeRobot
+                </papertitle>
+              </a>
+              <br>
+              <a href="https://github.com/Tavish9/any4lerobot">paper</a> |
+              <a href="https://github.com/Tavish9/any4lerobot">project page</a> |
+              <a href="https://github.com/Tavish9/any4lerobot">video</a> |
+              <a href="https://github.com/Tavish9/any4lerobot">code</a>
+              <p></p>
+              A curated collection of utilities for LeRobot Projects, including data conversion scripts, preprocessing tools, training workflow helpers and etc.
               <p></p>
             </td>
           </tr>
