@@ -262,6 +262,100 @@
         <!-- Research  -->
         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
           <heading>Research</heading>
+          <tr onmouseout="cosmos3_stop()" onmouseover="cosmos3_start()">
+            <td width="25%">
+              <div class="one">
+                <div class="two" id="cosmos3_shape">
+                  <video id="cosmos3_video" width="160" height="120" muted loop playsinline preload="metadata"
+                    style="object-fit: cover;">
+                    <source
+                      src="https://raw.githubusercontent.com/NVIDIA/cosmos/main/cookbooks/cosmos3/generator/action/assets/videos/robolab_example_rollout.mp4"
+                      type="video/mp4">
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+                <img
+                  src="https://raw.githubusercontent.com/NVIDIA/cosmos/main/cookbooks/cosmos3/cosmos3-model-architecture.png"
+                  width="160" height="120" alt="Cosmos 3 teaser" style="object-fit: cover;">
+              </div>
+              <script type="text/javascript">
+                function cosmos3_start() {
+                  document.getElementById('cosmos3_shape').style.opacity = "1";
+                  document.getElementById('cosmos3_video').play().catch(function () { });
+                }
+                function cosmos3_stop() {
+                  document.getElementById('cosmos3_shape').style.opacity = "0";
+                  document.getElementById('cosmos3_video').pause();
+                }
+                cosmos3_stop()
+              </script>
+            </td>
+            <td valign="top" width="75%">
+              <a href="https://research.nvidia.com/labs/cosmos-lab/cosmos3/">
+                <papertitle>Cosmos 3: Omnimodal World Models for Physical AI</papertitle>
+              </a>
+              <br>
+              NVIDIA
+              <br>
+              <em>arXiv preprint</em>, 2026
+              <br>
+              <a href="https://research.nvidia.com/labs/cosmos-lab/cosmos3/technical-report.pdf">paper</a> |
+              <a href="https://research.nvidia.com/labs/cosmos-lab/cosmos3/">project page</a> |
+              <a href="https://research.nvidia.com/labs/cosmos-lab/cosmos3/">video</a> |
+              <a href="https://github.com/NVIDIA/cosmos">code</a> |
+              <a href="https://huggingface.co/collections/nvidia/cosmos3">models</a>
+              <br>
+              A unified omnimodal world model spanning language, image, video, audio, and action for physical
+              reasoning, generation, simulation, and robot control.
+            </td>
+          </tr>
+
+          <tr onmouseout="wallwm_stop()" onmouseover="wallwm_start()">
+            <td width="25%">
+              <div class="one">
+                <div class="two" id="wallwm_shape">
+                  <video id="wallwm_video" width="160" height="120" muted loop playsinline preload="metadata"
+                    style="object-fit: cover;">
+                    <source
+                      src="https://raw.githubusercontent.com/X-Square-Robot/wall-wm/main/scripts/infer_openloop/episodes/put_spoon_to_bowl/sample_01/faceImg.mp4"
+                      type="video/mp4">
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+                <img src="https://raw.githubusercontent.com/X-Square-Robot/wall-wm/main/assets/teaser.png"
+                  width="160" height="120" alt="WALL-WM teaser" style="object-fit: cover;">
+              </div>
+              <script type="text/javascript">
+                function wallwm_start() {
+                  document.getElementById('wallwm_shape').style.opacity = "1";
+                  document.getElementById('wallwm_video').play().catch(function () { });
+                }
+                function wallwm_stop() {
+                  document.getElementById('wallwm_shape').style.opacity = "0";
+                  document.getElementById('wallwm_video').pause();
+                }
+                wallwm_stop()
+              </script>
+            </td>
+            <td valign="top" width="75%">
+              <a href="https://x2robot.com/en/pages/wm">
+                <papertitle>WALL-WM: Carving World Action Modeling at the Event Joints</papertitle>
+              </a>
+              <br>
+              Shalfun Li, Victor Yao, Charles Yang, <strong>Truth Qu</strong>, et al.
+              <br>
+              <em>arXiv preprint</em>, 2026
+              <br>
+              <a href="https://arxiv.org/abs/2606.01955">paper</a> |
+              <a href="https://x2robot.com/en/pages/wm">project page</a> |
+              <a href="https://x2robot.com/en/pages/wm">video</a> |
+              <a href="https://github.com/X-Square-Robot/wall-wm">code</a>
+              <br>
+              An event-grounded world action model that aligns language, vision, and control around semantically
+              coherent action events and supports both variable- and fixed-length execution.
+            </td>
+          </tr>
+
           <tr onmouseout="eo1_stop()" onmouseover="eo1_start()">
             <td width="25%">
               <div class="one">
@@ -1156,6 +1250,67 @@
   </td>
   </tr>
   </table>
+  <script type="text/javascript">
+    // Use the exact hero videos from the official Cosmos 3 and WALL-WM pages.
+    // The paused video itself is the teaser, so its first frame is always the cover.
+    (function () {
+      function configureResearchPreview(videoId, shapeId, sourceUrl, posterUrl) {
+        var video = document.getElementById(videoId);
+        var shape = document.getElementById(shapeId);
+        if (!video || !shape) return;
+
+        video.src = sourceUrl;
+        video.poster = posterUrl;
+        var teaser = shape.parentElement.querySelector("img");
+        if (teaser) teaser.src = posterUrl;
+        video.preload = "auto";
+        video.muted = true;
+        video.playsInline = true;
+        shape.style.opacity = "0";
+        video.load();
+        video.addEventListener("loadeddata", function () {
+          video.pause();
+          video.currentTime = 0;
+        }, { once: true });
+      }
+
+      configureResearchPreview(
+        "cosmos3_video",
+        "cosmos3_shape",
+        "publication/202606-cosmos3/video.mp4",
+        "publication/202606-cosmos3/teaser.png"
+      );
+      configureResearchPreview(
+        "wallwm_video",
+        "wallwm_shape",
+        "publication/202605-wallwm/video.mp4",
+        "publication/202605-wallwm/teaser.png"
+      );
+
+      window.cosmos3_start = function () {
+        var video = document.getElementById("cosmos3_video");
+        document.getElementById("cosmos3_shape").style.opacity = "1";
+        video.play().catch(function () {});
+      };
+      window.cosmos3_stop = function () {
+        var video = document.getElementById("cosmos3_video");
+        video.pause();
+        video.currentTime = 0;
+        document.getElementById("cosmos3_shape").style.opacity = "0";
+      };
+      window.wallwm_start = function () {
+        var video = document.getElementById("wallwm_video");
+        document.getElementById("wallwm_shape").style.opacity = "1";
+        video.play().catch(function () {});
+      };
+      window.wallwm_stop = function () {
+        var video = document.getElementById("wallwm_video");
+        video.pause();
+        video.currentTime = 0;
+        document.getElementById("wallwm_shape").style.opacity = "0";
+      };
+    })();
+  </script>
 </body>
 
 </html>
